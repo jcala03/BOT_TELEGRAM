@@ -1,4 +1,5 @@
 import os
+from dotenv import load_dotenv
 import random
 import locale
 import pytz
