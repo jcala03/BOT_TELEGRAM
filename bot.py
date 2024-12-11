@@ -210,7 +210,7 @@ class NequiBot:
             return
 
         if not self.command_history:
-            await update.message.reply_text("No hay registros de comandos aún.")
+            await update.message.reply_text("No hay registros de comandos aún")
             return
 
         for entry in self.command_history:
